@@ -9,6 +9,7 @@ The way we consume videos nowadays has undergone massive changes. Now we have mu
 ### The Idea
 The idea is to extract data from various ott platforms to derive meaningful insights based on various fields like genre, ratings, revenues, release year etc. In future, these insights can serve as an input to a prediction model. This model will suggest content creators with most trending creative ideas to achieve best imdb rating and most suitable platform for their content. Furthermore, it can be made available to all through a public platform.
 
+![Architecture Diagram](Images/architecture-diagram.png)
 
 ## Section 1: Gathering the data 
 Most of the data was available on kaggle. Following are the links from where data has been extracted to create meaningful insights.
@@ -29,50 +30,50 @@ For this project, we went beyond these 3 basic data wrangling steps to handle ca
 
 Given below are visualizations that led to the following insights :
 
-![Diagram1](Images/1-imdb-rating-wise.png)
+![Diagram1](Images/1-imdb-rating-wise.PNG)
 
 Above diagram shows the IMDB Rating Distribution for movies on different OTT platforms. It can be briefly concluded that most content on all 3 platforms is rated between 5 to 7 IMDB rate value.
 
-![Diagram1](Images/2-imdb-rating-wise.png)  
+![Diagram1](Images/2-imdb-rating-wise.PNG)  
 A more accurate representation of content division across all platforms based on IMDB ratings. It can be seen that very few (less than 200) movies are marked with the highest IMDB rating possible. 
 
 
-![Diagram1](Images/3-maturity-rating-wise.png)
+![Diagram1](Images/3-maturity-rating-wise.PNG)
 Maturity rating defines the class or age group of society that proves to be the best audience for a given content. It is derived that Netflix has more content for 18+ age group whereas Disney Hotstar has most of its content fit for "all" age groups.
 
 
-![Diagram1](Images/4-maturity-rating-all-platforms.png)
+![Diagram1](Images/4-maturity-rating-all-platforms.PNG)
 A line graph showing overall distribution of content combining all 3 platforms. Clearly "18+" type of content is most popular amongst all the boards
 
 
-![Diagram1](Images/5-languages-all.png)
-![Diagram1](Images/6-languages-netflix.png)
-![Diagram1](Images/7-languages-prime.png)
-![Diagram1](Images/8-languages-disney.png)
+![Diagram1](Images/5-languages-all.PNG)
+![Diagram1](Images/6-languages-netflix.PNG)
+![Diagram1](Images/7-languages-prime.PNG)
+![Diagram1](Images/8-languages-disney.PNG)
 
 Colourful pie charts providing a visual treat to analyze most popular language across all media! English being the most common international language continues to top the list. Hindi ranks second being specific to Netflix.
 
 
-![Diagram1](Images/9-budget-imdb.png)
-![Diagram1](Images/10-revenue-imdb.png)
+![Diagram1](Images/9-budget-imdb.PNG)
+![Diagram1](Images/10-revenue-imdb.PNG)
 
 Scatter plot has no definite shape indicating no direct relation between imdb and budget / revenue respectively
 
 
-![Diagram1](Images/11-directors-all.png)
-![Diagram1](Images/12-directors-netflix.png)
-![Diagram1](Images/13-directors-prime.png)
-![Diagram1](Images/14-directors-hotstar.png)
+![Diagram1](Images/11-directors-all.PNG)
+![Diagram1](Images/12-directors-netflix.PNG)
+![Diagram1](Images/13-directors-prime.PNG)
+![Diagram1](Images/14-directors-hotstar.PNG)
 
 Director is the one who visualizes the story and makes it come alive on the white screen! Above graph shows top directors to have most of their content published on these platforms.
 Jay Chapman leading across all boards with more than 30 movies currently running on OTT. Steven Spielberg and John English are ranked as most popular on Netflix and Prime respectively. However, Charles Nichols and Paul Hoen share the title for Disney+ Hotstar
 
 
-![Diagram1](Images/18-actor-wise.png)
+![Diagram1](Images/18-actor-wise.PNG)
 
 The honorable title for best actor goes to Shah Rukh Khan! Significantly being the most popular actor across all boards, genres and languages. Re-iterating that this data has been biased and collected from Indian audience, it wasn't a surprise that SRK topped the list.
 
-![Diagram1](Images/19-genre-wise.png)
+![Diagram1](Images/19-genre-wise.PNG)
 
 Genre wise comparison is an extremely critical information for content creators to see what type of genre is being consumed at large. Since this data is majorly extracted from Indian audience, Drama category undoubtedly tops the list for both - Netflix and Prime. Hotstar is for people who prefer 'Family' type content for their entertainment. History, War and Music are some of the least favorites for audiences of all age groups.
 
