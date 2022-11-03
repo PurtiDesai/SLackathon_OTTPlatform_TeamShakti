@@ -35,14 +35,17 @@ Given below are visualizations that led to the following insights :
 Above diagram shows the IMDB Rating Distribution for movies on different OTT platforms. It can be briefly concluded that most content on all 3 platforms is rated between 5 to 7 IMDB rate value.
 
 ![Diagram1](Images/2-imdb-rating-wise.PNG)  
+
 A more accurate representation of content division across all platforms based on IMDB ratings. It can be seen that very few (less than 200) movies are marked with the highest IMDB rating possible. 
 
 
 ![Diagram1](Images/3-maturity-rating-wise.PNG)
+
 Maturity rating defines the class or age group of society that proves to be the best audience for a given content. It is derived that Netflix has more content for 18+ age group whereas Disney Hotstar has most of its content fit for "all" age groups.
 
 
 ![Diagram1](Images/4-maturity-rating-all-platforms.PNG)
+
 A line graph showing overall distribution of content combining all 3 platforms. Clearly "18+" type of content is most popular amongst all the boards
 
 
